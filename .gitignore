@@ -1,0 +1,5 @@
+VEHP/
+__pycache__/
+.env
+*.pyc
+data/
