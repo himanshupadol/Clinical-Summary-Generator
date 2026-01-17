@@ -1,5 +1,9 @@
 import streamlit as st
 import time
+
+# Manually add the project root to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from backend.main import generate_summary_for_patient
 
 st.set_page_config(page_title="Clinical Summary Generator", layout="wide")
